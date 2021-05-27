@@ -1,0 +1,53 @@
+/**
+ * Created by Sanjul Sharma on April 22, 2021
+ * All right reserved. Copyright © 2021.
+ * @author Sanjul Sharma
+ */
+
+button[id='import_key_file'], input[type='submit'] {
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+    width: 100%;
+}
+
+button[id='import_key_file']:hover, input[type='submit']:hover {
+    background-color: #3e8e41
+}
+
+button[id='import_key_file']:active, input[type='submit']:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.with-border {
+    border-radius: 5px !important;
+}
+
+.overlay {
+    position: fixed; /* Positioning and size */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.5); /* color */
+    display: none; /* making it hidden by default */
+}
+
+.modal {
+    position: fixed; /* positioning in center of page */
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    height: 400px; /* size */
+    width: 600px;
+    background-color: white; /* background color */
+}
